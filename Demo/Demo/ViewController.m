@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CategoryFiles.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)action1:(id)sender {
+    NSString * str = @"AASASAS";
+    BOOL isHave = [str isChinese];
 }
 
 @end

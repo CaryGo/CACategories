@@ -1,0 +1,15 @@
+PODS:
+  - CACategories (0.0.1):
+    - MBProgressHUD
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - CACategories
+
+SPEC CHECKSUMS:
+  CACategories: d6f8e7808de14257502dcbaf791a0e6d8336e8e6
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 37334d6247ea3f7b730d56a2233a494ea1ce269b
+
+COCOAPODS: 1.0.1
