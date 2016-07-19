@@ -27,9 +27,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/CaryGo/CACategories.git', :tag => s.version.to_s }
   s.requires_arc = true
   
-  #s.source_files = 'CACategories/*.{h,m}'
+  s.source_files = 'CACategories/*.{h,m}'
   #s.public_header_files = 'CACategories/CACategories'
-  s.source_files = 'CACategories/*.h'
+  #s.source_files = 'CACategories/*.h'
 #   s.public_header_files = 'GTKit/**/*.h'
   
 	s.frameworks = 'Foundation', 'CoreFoundation', 'UIKit'
